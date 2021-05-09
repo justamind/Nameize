@@ -30,7 +30,7 @@ class style():
 
 nameize = requests.get("https://gist.githubusercontent.com/viperize/81ad22f8bef40e76fc7bab176d77815e/raw/8078ee379f4394a909db09317ac4416f0c431b37/asciiViper").text
 print(style.GREEN + f"{nameize}\n----------------------------------" + style.RESET)
-r = requests.get("https://raw.githubusercontent.com/dwyl/english-words/master/words_alpha.txt")
+r = requests.get("http://www.webplaces.com/passwords/lists/4-letter-words-2478.txt")
 
 blacklisted_words = ['sex','shit','fag','cock','cum','homo','breast','tit','puss','weed','loli','pregnant',
 'shit','fuck','satan','ass','gay','slave','anal','rape','gass','sperm', 'dick','damn','gang','fack','molester','alcohol',
